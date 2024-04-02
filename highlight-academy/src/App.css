@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Montserrat:wght@300&family=Poppins&family=Roboto&display=swap');
+body{
+  font-family: 'Jost', sans-serif;
+}
+
+nav{
+  z-index: 10001 !important;
+}
+
+.gradientBg{
+  background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100%);
+}
+
+.btnPrimary{
+  @apply py-3 px-8 bg-secondary font-semibold text-white rounded 
+  hover:bg-primary transition-all duration-300;
+}
+
+.btnSecondary{
+  @apply py-3 px-8 bg-white border-[1px] border-secondary font-semibold text-secondary rounded 
+  hover:bg-secondary hover:text-white transition-all duration-300;
+}
+
