@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='md:w-1/2 space-y-8'>
                 <a href="/" className='text-2xl font-semibold flex items-center space-x-3 text-primary'>
                     <img src={Logo} alt='logo' className='w-10 inline-block items-center'/><span
-                    className='text-white'>XYZ</span>
+                    className='text-white'>HIGHLIGHT</span>
                 </a>
                 <p className='md:w-4/5'>
                     A simple paragraph is comprised of three major components. 
