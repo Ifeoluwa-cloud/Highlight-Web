@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Montserrat:wght@300&family=Poppins&family=Roboto&display=swap');
+html {
+  scroll-behavior: smooth; /* for smooth scrolling */
+}
+
+#home,
+#features,
+#about,
+#pricing {
+  scroll-margin-top: 80px; /* height of fixed navbar */
+}
+
+
 body{
   font-family: 'Jost', sans-serif;
 }

@@ -11,14 +11,21 @@ function App() {
   
   return (
     <>
-        {/*import your components here*/}  
-        <Navbar/>
-        <Home/>
-        <Features/>
-        <About/>
-        <Pricing/>
-        <Newsletter/>
-        <Footer/>
+      <Navbar/>
+      <div id="home">
+        <Home />
+      </div>
+      <div id="features">
+        <Features />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="pricing">
+        <Pricing />
+      </div>
+      <Newsletter/>
+      <Footer/>
     </>
   )
 }
